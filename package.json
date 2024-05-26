@@ -2,9 +2,10 @@
   "name": "clear-parcel",
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
+  "homepage": "https://github.com/MatPaluch/Clear-Parcel.git",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build src/*.html --public-url /Clear-Parcel/"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
