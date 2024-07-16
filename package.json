@@ -1,11 +1,11 @@
 {
-  "name": "clear-parcel",
+  "name": "pure-parcel",
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
-  "homepage": "https://github.com/MatPaluch/Clear-Parcel.git",
+  "homepage": "https://github.com/MatPaluch/Pure-Parcel.git",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build src/*.html --public-url /Clear-Parcel/"
+    "build": "parcel build src/*.html --public-url /Pure-Parcel/"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
